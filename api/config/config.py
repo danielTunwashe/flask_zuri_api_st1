@@ -14,7 +14,7 @@ class TestConfig(Config):
 
 
 class ProdConfig(Config):
-    pass
+    DEBUG=config('DEBUG', cast=bool)
 
 
 config_dict={

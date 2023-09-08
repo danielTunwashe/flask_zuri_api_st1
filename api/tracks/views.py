@@ -18,7 +18,7 @@ class trackGet(Resource):
         "Current_day": dt.strftime('%A'),
         "utc_time": now_utc.strftime(format),
         "Track": track_type,
-        "GitHub_File_URL": "",
-        "GitHub_Repo_URL": "",
-        "Status Code": 200,
+        "GitHub_File_URL": "https://github.com/danielTunwashe/flask_zuri_api_st1/blob/main/api/__init__.py",
+        "GitHub_Repo_URL": "https://github.com/danielTunwashe/flask_zuri_api_st1.git",
+        "Status Code": 200
         }
